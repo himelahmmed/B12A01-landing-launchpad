@@ -109,4 +109,46 @@ nav{
     font-size: small;
 }
 
+/*feedback section*/
+.feedback-heading-title{
+    text-align: center;
+}
 
+.feedback-des{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.photo-and-namedate{
+    display: flex;
+
+}
+
+.photo{
+    border-radius:100px;
+}
+
+.rivewer-photo{
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.name-date{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.person{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*touch section style*/
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side{
+    display: block;
+}
