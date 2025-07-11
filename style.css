@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+.btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    border: none;
+}
 
 body{
     background-color: #f6f8ff;
@@ -71,10 +78,11 @@ nav{
 
 /*header style end*/
 
-/*main section start*/
+/*action section start*/
 .action{
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
 }
 
 .action-image{
@@ -87,6 +95,7 @@ nav{
     border-radius: 24px;
     background-color:#e6e6ff;
     padding: 10px;
+    margin-top: 60px;
 }
 
 .pus-title{
@@ -108,8 +117,13 @@ nav{
 .sub-title-content{
     font-size: small;
 }
+/*action section end*/
 
-/*feedback section*/
+/*feedback section start*/
+.users-feedback{
+    margin-top: 70px;
+}
+
 .feedback-heading-title{
     text-align: center;
 }
@@ -142,13 +156,53 @@ nav{
     padding: 10px;
     border-radius: 10px;
 }
+/*Feedback setion end*/
 
-/*touch section style*/
+/*touch section start*/
 .touch-section{
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .right-side{
     display: block;
+}
+
+.lets-title{
+    font-size: 91px;
+    font-weight: bold;
+}
+/*footer style*/
+footer{
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.footer-logo{
+    font-size: 50px;
+}
+
+.footer-btn{
+
+}
+
+.footer-btn ul{
+    text-align: center;
+    display: flex;
+    margin-left: 420px;
+    gap: 40px;
+}
+
+div ul li{
+    list-style-type: none;
+
+}
+
+.my-button:hover{
+    background-color: cadetblue;
 }
